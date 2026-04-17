@@ -211,14 +211,6 @@ def define_byzantine_scenarios():
 
         # ===== Tier-1 Byzantine (Proposal Attack) =====
         #(10, 14, 50, 0, 5, ByzantineType.WRONG_SIGNATURE, "5/50 Tier-1 Send Wrong Signature", 3),
-        #(9, 14, 50, 0, 25, ByzantineType.SILENT, "25/50 Tier-1 Silent", 1),
-        #(10, 14, 50, 0, 25, ByzantineType.SILENT, "25/50 Tier-1 Silent", 2),
-        #(11, 14, 50, 0, 25, ByzantineType.SILENT, "25/50 Tier-1 Silent", 3),
-        #(12, 14, 50, 0, 25, ByzantineType.SILENT, "25/50 Tier-1 Silent", 4),
-        #(13, 14, 50, 0, 25, ByzantineType.SILENT, "25/50 Tier-1 Silent", 5),
-        #(14, 14, 50, 0, 25, ByzantineType.SILENT, "25/50 Tier-1 Silent", 6),
-        #(15, 14, 50, 0, 25, ByzantineType.SILENT, "25/50 Tier-1 Silent", 7),
-        #(12, 14, 50, 0, 20, ByzantineType.SILENT, "20/50 Tier-1 Silent", 3),
         (9, 14, 50, 0, 5, ByzantineType.SILENT, "5/50 Tier-1 Silent", 4),
         (10, 14, 50, 0, 10, ByzantineType.SILENT, "10/50 Tier-1 Silent", 4),
         (11, 14, 50, 0, 15, ByzantineType.SILENT, "15/50 Tier-1 Silent", 4),
